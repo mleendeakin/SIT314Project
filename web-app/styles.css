@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    font-family: 'Lora', serif;
+}
+.title {
+    padding-left: 50px;
+}
+
+.para {
+    font-size: 25px;
+    padding-left: 110px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+.title-container{
+    width: 25%;
+    height: 10%;
+    background: #5bbbcb;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.building-container{
+    height: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    
+}
+
+.level{
+    height: 65%;
+    width: 40%;
+    background-color: #3a727e;
+    border-radius: 20px;
+    margin-left: 100px;
+    box-shadow: 5px 10px #888888;
+}
+
+
+.floor-container {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: honeydew;
+}
+
+.floor-row{
+    display: flex;
+}
+
+.room {
+    height: 150px;
+    width: 200px;
+    border: black;
+    border-style: solid;
+    background-color: #5bbbcb;
+    text-align: center;
+    font-size: 20px;
+}
+
+.room:hover {
+    background-color: grey;
+    cursor: pointer;
+  
+}
+
+.light-status{
+    width: 80%;
+    height: 25%;
+    background-color: #3a727e;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: bold;
+}

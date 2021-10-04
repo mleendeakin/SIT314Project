@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>9.1 Web App</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title-container">
+                <h1 class="title" id="title" onclick="handleClick()">IoT Light Controller</h1>
+                <p class="para">Control the Lights!</p>
+            </div>
+            <div class="building-container">
+                <div class="level">
+                    <h1>Level 0</h1>
+                    <div class="floor-container">
+                        <div class="floor-row">
+                            <div class="room" id="room0" onclick="handleClick(0,0,'room00-status')">Room 0
+                                <div class="light-status" id="room00-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" id="room1" onclick="handleClick(0,1,'room01-status')">Room 1
+                                <div class="light-status" id="room01-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" id="room2" onclick="handleClick(0,2,'room02-status')">Room 2
+                                <div class="light-status" id="room02-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="floor-row">
+                            <div class="room" id="room3" onclick="handleClick(0,3,'room03-status')">Room 3
+                                <div class="light-status" id="room03-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" id="room4" onclick="handleClick(0,4,'room04-status')">Room 4
+                                <div class="light-status" id="room04-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" id="room5" onclick="handleClick(0,5,'room05-status')">Room 5
+                                <div class="light-status" id="room05-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>  
+                        </div>
+                        
+                    </div>           
+                </div>
+                <div class="level">
+                    <h1>Level 1</h1>
+                    <div class="floor-container">
+                        <div class="floor-row">
+                            <div class="room" onclick="handleClick(1,0,'room10-status')">Room 0
+                                <div class="light-status" id="room10-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" onclick="handleClick(1,1,'room11-status')">Room 1
+                                <div class="light-status" id="room11-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" onclick="handleClick(1,2,'room12-status')">Room 2
+                                <div class="light-status" id="room12-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="floor-row">
+                            <div class="room" onclick="handleClick(1,3,'room13-status')">Room 3
+                                <div class="light-status" id="room13-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" onclick="handleClick(1,4,'room14-status')">Room 4
+                                <div class="light-status" id="room14-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>
+                            <div class="room" onclick="handleClick(1,5,'room15-status')">Room 5
+                                <div class="light-status" id="room15-status">
+                                    <p>Light is: Off</p>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="browser-app.js"></script>
+    </body>
+    
+</html>
